@@ -29,16 +29,15 @@ We use **SwinUNETR**, a hybrid architecture combining Swin Transformer blocks wi
 
 ## Example Segmentations
 
-| Flair Input MRI | Ground Truth | Prediction |
-|-----------------|--------------|------------|
-| ![Input](img/example_1_input.png) | ![Ground Truth](img/example_1_gt.png) | ![Prediction](img/example_1_pred.png) |
-| ![Input](img/example_2_input.png) | ![Ground Truth](img/example_2_gt.png) | ![Prediction](img/example_2_pred.png) |
+| Sample 1 | Sample 2 |
+|----------|----------|
+| ![Segmentation Output 1](img/output.png) | ![Segmentation Output 2](img/output1.png) |
 ---
 
 ## 📁 Files
 
 - `swinunetr-brats-21.ipynb` – Full pipeline including preprocessing, training, and inference
-- `example_*.png` – Visual results from inference (see above)
+- `img/output*.png` – Visual results from inference (see above)
 
 ---
 
